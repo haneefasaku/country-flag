@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+#api{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    row-gap: 2rem;
+}
+#api article{
+    width: 300px;
+    height: 200px;
+}
+#api img{
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+#api h2{
+    font-size: 1.5rem;
+    color: tomato;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+}
