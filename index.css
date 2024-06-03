@@ -14,7 +14,7 @@ h1{
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     row-gap: 2rem;
-    margin: 15px auto;
+    margin: 15px 0 15px 6px;
 }
 #api article{
     width: 300px;
